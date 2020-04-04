@@ -1,1 +1,1 @@
-Wczytaj moj plik. Obłsuguje je trudne plki!. 
+Zapisz moj plik. Obłsuguje pliki tekstowe!. 
