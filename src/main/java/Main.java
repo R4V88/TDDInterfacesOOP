@@ -32,7 +32,7 @@ public class Main {
         //dopisanie do pliku  true(dopisanie), false(nadpisanie).
         int[] numbersTab = {1, 2, 3, 4, 5};
         String fileName3 = "Liczby.txt";
-        FileOutputStream fos = new FileOutputStream(fileName3, true);
+        FileOutputStream fos = new FileOutputStream(fileName3, false);
         PrintWriter pw = new PrintWriter(fos);
         for(int i = 0; i< numbersTab.length; i++){
             pw.write("Jestem liczba numer: " + i + ", a moja wartosc to: " +
@@ -51,7 +51,11 @@ public class Main {
         reader.close();
 
         WriteReadFile writeReadFile = new WriteReadFile();
-        writeReadFile.writeNumbersToFile();
-
+//        writeReadFile.writeNumbersToFile();
+//        writeReadFile.writeNamesToFile();
+//        writeReadFile.writeNumbersWithCount();
+//        writeReadFile.printSum();
+//        writeReadFile.readNamesAndSurnames();
+        writeReadFile.writeStudentToFile();
     }
 }

@@ -1,0 +1,4 @@
+Student: id= 1, name= Teodor, lastname= Teodorowicz, age= 50.
+Student: id= 2, name= Michał, lastname= Michałowicz, age= 51.
+Student: id= 3, name= Karolina, lastname= Karolowicz, age= 52.
+Student: id= 4, name= Katarzyna, lastname= Katarynowicz, age= 53.
