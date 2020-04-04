@@ -1,20 +1,15 @@
-import api.Vehicle;
-import model.Bike;
-import model.Car;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
-        Vehicle bike = new Bike();
-        Vehicle car = new Car();
+        String fileName = "Dane.txt";
+        PrintWriter printWriter = new PrintWriter(fileName);
+        printWriter.write("Wczytaj moj plik. ");
+        printWriter.write("Obłsuguje je trudne plki!. ");
+        printWriter.close();
 
-        System.out.println("Bike:");
-        bike.drive();
-        bike.stop();
-        System.out.println();
-        System.out.println("Car:");
-        car.drive();
-        car.stop();
 
     }
 }
